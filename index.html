@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="name=" viewport content="width=device-width, initial-scale=1.0">
+    <link rX-UA-Compatible content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>My portfolio</title>
+    <script src="https://kit.fontawesome.com/0f8336e200.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/logo3.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1><span>SOFTWARE ENGINEER</span>
+                </h1>
+                <h1>Hi, I'm <span>Lexer</span><br> From Kenya</h1>
+            </div>
+        </div>
+
+    </div>
+    <!-------about------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/about.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>LEXER is not my real name. My official name is MUTHOMI KEVIN MUTUGI. Am from Meru county, South Imenti sub county, Igoji East ward. Am from a family of two brothers and our parents. The second born in our family. Am a software engineer
+                        by profession, am a Full stack developer, web designer, in general am Computer Scientist. I studied in South Eastern Kenya University in Kitui. Am a C.E.O of LEXER GRAPHICS.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Projects</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>On Packages</span><br>Excel.<br> PowerPoint.<br> Word.<br> Office point.<br> Notepad.<br> Typing - Good speed with Keyboard.
+                            </li>
+                            <li><span>Designing</span><br>We design the following;<br>Websites.<br>Posters.<br>Menus.<br>Catalouges.<br>Banners.<br>3D and 2D logos.<br>Business cards.</li>
+                            <li><span>Coding</span><br>Coding in different programming languages such as C, C++,Java, JavaScript, Html, CSS, PHP and Python programming.
+                            </li>
+                            <li><span>Database Managements</span><br>Database creation, connecting and maintanance in different programming languages such as MySQL, JAVA,PYTHON.
+                            </li>
+                            <li><span>Machine Learning</span><br>I carry on the machine Learning using different languages such as JAVA and PYTHON.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024-current </span><br>REACT programming, Data mining and Science</li>
+                            <li><span>2023 </span><br>Python programming, Web designing and Web Developing</li>
+                            <li><span>2022</span><br>Java, JavaScript, Html, CSS, PHP programming.</li>
+                            <li><span>2020-2021</span><br>C and C++ programming.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>SOUTH EASTERN KENYA UNIVERSITY.<br> Bachelor of Computer Science.<br> 2021 – Present.</li>
+                            <li><span>2021</span><br>MWERU MIXED DAY SEC SCHOOL.<br>Kenya Certificate of Secondary Education. (AGP 51 [C+]) <br>2016 – 2021. </li>
+                            <li><span>2016</span><br>GEETO PRIMARY SCHOOL.<br> Kenya Certificate f Primary Education. (Total Marks[280]).<br> 2005 – 2015.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="projects">
+                        <ul>
+                            <li><span>LEXER’S PORTFOLIO</span><br>Developed a full-stack web application using visual studio for the frontend and visual studio for the backend.<br>Implemented user authentication, all skills, experiences, hobbies and contact us  functionality<br>Deployed the application on TRUE HOST.</li>
+                        
+                            <li><span>ONLINE QUIZ APP</span><br>Designed and implemented a Java-based online quiz app system for a studying platform
+                                <br>Utilized object-oriented principles to model different types of course and questions and studying platform management operations
+                                <br>Implemented features such as product search, addition, deletion, and question tracking
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------services------ -->
+    <div id="services">
+        <div class="container"></div>
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Doing all types of the ideas given by our clients. Apps for carrying graphic designs not yet done.You can order yours now</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>App Design</h2>
+                <p>Doing all types of the ideas given by our clients. Apps for carrying graphic designs not yet done.You can order yours now</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2>Coding</h2>
+                <p>Coding in different programming languages such as C, C++,Java, JavaScript, Html, CSS, PHP and Python programming.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+        </div>
+    </div>
+    <!-- ------portfolio---------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/ngota (4).jpg" alt="">
+                    <div class="layer">
+                        <h3>Social media Adverts</h3>
+                        <p>Here we make the adds adverts to make our business grow.We have creates an app for this Adds making. Download the app at playstore</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/ngota6.jpg" alt="">
+                    <div class="layer">
+                        <h3>Designing work</h3>
+                        <p>.Doing all types of the ideas given by our clients. Apps for carrying graphic designs not yet done.You can order yours now</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/ngota (3).jpg" alt="">
+                    <div class="layer">
+                        <h3>Online shopping App</h3>
+                        <p>Doing marketing in an easy way. Download the app at playstore</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="house_rules.html" class="btn">See more</a>
+        </div>
+    </div>
+    <!-------contact----- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fas fa-paper-plane"></i> lexergraphics@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> 0792261066/0798422181 </p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/profile.php?id=100066819859186"><i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com/judas1200?s=09"><i class="fab fa-twitter"></i></a>
+                        <a href="https://instagram.com/young.dee120?igshid=ZGUzMzM3NWJiOQ==n="><i class="fab fa-instagram"></i></a>
+                        <a href="https://chat.whatsapp.com/GuTruzbclo1DMGlcgSZqJC"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                    <a href="images/CV KEVIN.doc" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="contact.php" method="POST">
+                        <input type="text" name="name" placeholder="Your Name" reguired>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="message" rows="6" placeholder="Your messsage"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Lexer Graphics <i class="fas fa-heart"></i> .....If you can think it,we can make it.</p>
+            <ul class="social">
+                <li class="twitter"><a href="https://twitter.com/kevoteh">Follow us on Twitter</a></li>
+                <li class="facebook"><a href="https://www.facebook.com/Lexer Tush">Like us on Facebook</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemen = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemen.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemen.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'AKfycbyGqAs8XvQUofRQrBE3bbUswnoDtnRsFRP-1t5QNPs4z3UhB4OylH3Oaoq--mUYFb5Wng'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, {
+                    method: 'POST',
+                    body: new FormData(form)
+                })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function() {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
